@@ -1,7 +1,11 @@
-import BeerList from '@/components/BeerList';
-import PayOrderButton from '@/components/PayOrderButton';
-import AddRound from '@/components/AddRound';
-import RoundSummary from '@/components/RoundSummary';
+'use client';
+
+import dynamic from 'next/dynamic';
+
+const AddRound = dynamic(() => import('@/components/AddRound'), { ssr: false });
+const RoundSummary = dynamic(() => import('@/components/RoundSummary'), { ssr: false });
+const BeerList = dynamic(() => import('@/components/BeerList'), { ssr: false });
+const PayOrderButton = dynamic(() => import('@/components/PayOrderButton'), { ssr: false });
 
 const Home = () => {
   return (
