@@ -1,6 +1,6 @@
 # 🍺 Beer Bar
 
-Aplicación web para gestionar rondas de cerveza con stock, pedidos por persona, y órdenes pagadas o pendientes. Hecha con amor, React, Tailwind y Firebase.  
+Aplicación web para gestionar rondas de cerveza con stock, pedidos por persona, y órdenes pagadas o pendientes. Hecha con amor, React, Tailwind y Firebase.
 
 ## ✨ Features
 
@@ -28,7 +28,7 @@ Aplicación web para gestionar rondas de cerveza con stock, pedidos por persona,
 
 ```bash
 git clone https://github.com/SparklyCode/Beer-App.git
-cd beer-bar
+cd Beer-App
 yarn install
 ```
 
