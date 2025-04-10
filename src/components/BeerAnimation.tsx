@@ -1,8 +1,8 @@
 'use client';
 
 import Player from 'lottie-react';
-import beerData from '@/../public/animations/beer.json';
-import moneyRainData from '@/../public/animations/moneyRain.json';
+import beerData from '@/animations/beer.json';
+import moneyData from '@/animations/moneyRain.json';
 
 type AnimationType = 'beer' | 'money';
 
@@ -12,7 +12,7 @@ interface IBeerAnimationProps {
 }
 
 const BeerAnimation = ({ type, text }: IBeerAnimationProps) => {
-  const animationData = type === 'beer' ? beerData : moneyRainData;
+  const animationData = type === 'beer' ? beerData : moneyData;
 
   return (
     <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center">
