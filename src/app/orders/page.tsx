@@ -1,5 +1,11 @@
-import OrderList from '@/components/OrderList';
+'use client';
+
 import { List } from 'lucide-react';
+import dynamic from 'next/dynamic';
+
+const OrderList = dynamic(() => import('@/components/OrderList'), {
+    ssr: false,
+  });
 
 const OrdersPage = () => {
   return (
