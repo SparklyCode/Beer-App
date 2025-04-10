@@ -2,7 +2,7 @@
 
 import Player from 'lottie-react';
 import beerData from '@/animations/beer.json';
-import moneyData from '@/animations/moneyRain.json';
+import moneyData from '@/animations/moneyrain.json';
 
 type AnimationType = 'beer' | 'money';
 
